@@ -126,4 +126,7 @@ p{
 	body{
 		background-image: url('https://res.cloudinary.com/dmz79kgf0/image/upload/v1506988995/Desktop_HD_1_fmw8li.jpg');
 	}
+	#content{
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
 }	
