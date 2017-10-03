@@ -79,29 +79,35 @@ p{
 	margin-bottom: 5px;
 }
 
-@media only screen and (max-width: 450px) {
-    body{
-        background-image: url('https://res.cloudinary.com/dmz79kgf0/image/upload/v1506897142/Group_pa6qay.jpg');;
-    }
-	#content{
-		background-image: none;
-		padding-top: 5px;
+@media only screen and (max-width: 350px) {
+	body{
+		background-color: #1497E2;
 	}
-	#location{
-		font-size: 20px;
-		margin-top: 10px;
+    #content{
+		height:100%;
 	}
-	#weathertype{
-		font-size: 10px;
-	}
-	#temp{
-		font-size: 60px;
-	}
-	
 	h5{
 		font-size: 10px;
 	}
 	 h3{
 		font-size: 13px;
 	 }
+	#footer{
+		bottom:  0;
+		position: fixed;
+		width: 100%;
+		text-align: center;
+		left: 0;
+	}
+	 
 } 	
+
+@media only screen and (max-width: 450px) {
+	body{
+		background-image: none;
+		background-color: #259EE3;
+	}
+	#content{
+		box-shadow: none;
+	}
+}	
