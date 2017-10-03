@@ -6,6 +6,8 @@
 		<script src= "js/mainApp.js"></script>
 		<script src= "js/weatherController.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:100|Roboto:100" rel="stylesheet">
+		<link rel="shortcut icon" href="http://res.cloudinary.com/dmz79kgf0/image/upload/v1506996854/favicon_ia0dmv.ico" type="image/x-icon">
+		<link rel="icon" href="http://res.cloudinary.com/dmz79kgf0/image/upload/v1506996854/favicon_ia0dmv.ico" type="image/x-icon">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Weather App</title>
@@ -14,7 +16,7 @@
 	</head>
 	<body>
 		<div class = "large-8 medium-centered columns" id="content">
-			<div ng-app="mainApp" ng-controller = "geoCtrl"> 
+			<div ng-app="mainApp" ng-controller = "weatherCtrl"> 
 				<h1 id="location">{{weather.name}}, {{weather.sys.country}}</h1>
 				<h1 id="weathertype">{{weather.weather[0].description}}</h1>
 	  

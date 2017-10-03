@@ -1,4 +1,4 @@
-mainApp.controller("geoCtrl",function($scope,$http){
+mainApp.controller("weatherCtrl",function($scope,$http){
 	    if(navigator.geolocation){
 		  navigator.geolocation.getCurrentPosition(function(position){
 		    $scope.$apply(function(){
