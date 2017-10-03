@@ -85,12 +85,13 @@ p{
 	}
     #content{
 		height: 100%;
+		width: 100%;
 	}
 	#location{
 		font-size: 25px;
 	}
 	#weathertype{
-		font-size: 10px;
+		font-size: 15px;
 	}
 	#temp{
 		font-size: 65px;
