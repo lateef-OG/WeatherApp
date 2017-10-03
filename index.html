@@ -19,12 +19,10 @@
 		<div class = "row">
 		<div class = "large-8 medium-centered columns" id="content">
 			<div ng-app="mainApp" ng-controller = "weatherCtrl"> 
-				
+				<h1 id="location">{{weather.name}}, {{weather.sys.country}}.</h1>
+				<h1 id="weathertype">{{weather.weather[0].description}}.</h1>
 				<h1 id = "temp">{{weather.main.temp | number : 0}}<sup>o</sup>{{label}}</h1>
 				<button id="celbutton" ng-click="getCel()" ng-style="celbutton"><sup>o</sup>C</button><button ng-click="getFar()" ng-style="farbutton"><sup>o</sup>F</button>
-				<h1 id="weathertype">{{weather.weather[0].description}}.</h1>
-				<h1 id="location">{{weather.name}}, {{weather.sys.country}}.</h1>
-				
 				<div class = "row">
 					<div class = "large-3 medium-3 columns sub">
 						<div><h5>wind speed</h5> <h2>{{weather.wind.speed}} km/hr</h2></div>
