@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+		<script src= "js/mainApp.js"></script>
+		<script src= "js/weatherController.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:100|Roboto:100" rel="stylesheet">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Weather App</title>
+		<link rel="stylesheet" href="css/foundation.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class = "large-8 medium-centered columns" id="content">
+			<div ng-app="mainApp" ng-controller = "geoCtrl"> 
+				<h1 id="location">{{weather.name}}, {{weather.sys.country}}</h1>
+				<h1 id="weathertype">{{weather.weather[0].description}}</h1>
+	  
+				<h1 id = "temp">{{weather.main.temp | number : 0}}<sup>o</sup>{{label}}</h1>
+				<button id="celbutton" ng-click="getCel()" ng-style="celbutton"><sup>o</sup>C</button><button ng-click="getFar()" ng-style="farbutton"><sup>o</sup>F</button>
+				<div class = "row">
+					<div class = "large-3 medium-3 columns sub">
+						<div><h5>wind speed</h5> <h2>{{weather.wind.speed}} km/hr</h2></div>
+					</div>
+					<div class = "large-3 medium-3 columns sub">
+						<div><h5>Pressure</h5> <h2>{{weather.main.pressure}} hPa</h2></div>
+					</div>
+					<div class = "large-3 medium-3 columns sub">
+						<div><h5>visibility<h5> <h2>{{weather.visibility}} km</h2></div>
+					</div>
+					<div class = "large-3 medium-3 columns sub">
+						<div><h5>Humidty</h5> <h2>{{weather.main.humidity}}%</h2></div>
+					</div>
+				</div>
+			</div>
+			<p class = "name">lateefogunbadejo &copy; 2017</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+	padding: 50px 100px;
+	margin: 0;
+	background-image: url('http://res.cloudinary.com/dmz79kgf0/image/upload/v1506988995/Desktop_HD_1_fmw8li.jpg');
+	font-family: 'Raleway', sans-serif;
+}
+
+#content{
+	padding-top: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	color: white;
+	background-image: url('http://res.cloudinary.com/dmz79kgf0/image/upload/v1506897142/Group_pa6qay.jpg');
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+	
+#location{
+    font-size: 45px;
+	margin-bottom: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+	  
+#weathertype{
+    font-size: 25px;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+  
+#temp{
+	margin: 0;
+	margin-bottom: 10px;
+    font-size:  120px;
+	font-family: 'Raleway', sans-serif;
+}
+	  
+button{
+    margin-left: 0;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FEFEFE;
+	background: none;
+	width: 50px;
+	height: 30px;
+	color: #fefefe;
+	display: inline-block;
+	cursor: pointer;
+}
+	  
+button:focus{
+    outline: 0 !important;
+}
+	  
+#celbutton{
+    background-color: #FEFEFE;
+	color: #1497E2;
+}
+
+.sub{
+	padding-top: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FEFEFE;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+h2,h5{
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+	
