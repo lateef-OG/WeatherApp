@@ -1,7 +1,7 @@
 body{
 	padding: 50px 100px;
 	margin: 0;
-	background-image: url('http://res.cloudinary.com/dmz79kgf0/image/upload/v1506988995/Desktop_HD_1_fmw8li.jpg');
+	background-image: url('https://res.cloudinary.com/dmz79kgf0/image/upload/v1506988995/Desktop_HD_1_fmw8li.jpg');
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -11,7 +11,7 @@ body{
 	padding-right: 25px;
 	text-align: center;
 	color: white;
-	background-image: url('http://res.cloudinary.com/dmz79kgf0/image/upload/v1506897142/Group_pa6qay.jpg');
+	background-image: url('https://res.cloudinary.com/dmz79kgf0/image/upload/v1506897142/Group_pa6qay.jpg');
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	position: absolute;
     top: 50%;
