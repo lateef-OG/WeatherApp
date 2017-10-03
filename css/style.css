@@ -84,7 +84,7 @@ p{
 		background-color: #1497E2;
 	}
     #content{
-		height:100%;
+		height: 100%;
 	}
 	h5{
 		font-size: 10px;
@@ -102,12 +102,18 @@ p{
 	 
 } 	
 
-@media only screen and (max-width: 450px) {
+@media only screen and (min-width: 350px) {
 	body{
 		background-image: none;
 		background-color: #259EE3;
 	}
 	#content{
 		box-shadow: none;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	body{
+		background-image: url('https://res.cloudinary.com/dmz79kgf0/image/upload/v1506988995/Desktop_HD_1_fmw8li.jpg');
 	}
 }	
